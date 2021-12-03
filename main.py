@@ -10,6 +10,6 @@ def main():
     print(cognom2[0:2])
 
 if __name__ == '__main__':
-    main()
+    main()  
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
