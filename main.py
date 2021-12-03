@@ -2,14 +2,16 @@
 
 
 def main():
-    nomber=str(input("introduce un nombre"))
-    cognom =str(input("introduce un cognom"))
-    cognom2 = str(input("introduce un cognom2"))
-    print(nomber[0:2])
-    print(cognom[0:2])
-    print(cognom2[0:2])
+    n1= int(input("introduce un numero N1"))
+    n2= int(input("introduce un numero N2 "))
+    if n1 > n2:
+        print("error")
+    else:
+        print(n1,n2)
+
+
+
+
 
 if __name__ == '__main__':
-    main()  
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+    main()
